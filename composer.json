@@ -1,0 +1,60 @@
+{
+    "name": "lingmou/market-execution",
+    "description": "大中台",
+    "keywords": [
+        "market-execution"
+    ],
+    "homepage": "http://www.yiiframework.com/",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/yiisoft/yii2/issues?state=open",
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "irc": "irc://irc.freenode.net/yii",
+        "source": "https://github.com/yiisoft/yii2"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.0.0",
+        "yiisoft/yii2": "~2.0.6",
+        "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0",
+        "yiisoft/yii2-authclient": "*",
+        "yiisoft/yii2-queue": "^2.2",
+        "yiisoft/yii2-redis": "~2.0.0",
+        "phpoffice/phpspreadsheet": "^1.7",
+        "overtrue/wechat": "~4.1",
+        "qcloud/cos-sdk-v5": ">=1.0",
+        "qcloudsms/qcloudsms_php": "0.1.*",
+      "ext-json": "*",
+      "ext-pcntl": "*",
+        "ext-zip": "*",
+        "zgj12306/data": "^1.0"
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "~2.0.0",
+        "yiisoft/yii2-gii": "~2.0.0",
+        "codeception/codeception": "^4.1",
+        "codeception/module-asserts": "^1.0",
+        "codeception/module-filesystem": "^1.0",
+        "codeception/module-phpbrowser": "^1.0",
+        "codeception/module-yii2": "^1.0",
+        "codeception/verify": "^1.3"
+    },
+    "config": {
+        "process-timeout": 1800,
+        "fxp-asset": {
+            "installer-paths": {
+                "npm-asset-library": "vendor/npm",
+                "bower-asset-library": "vendor/bower"
+            }
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
+    }
+}

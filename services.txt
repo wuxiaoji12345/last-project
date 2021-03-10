@@ -1,0 +1,9 @@
+# plan/upload-store-list 1
+# plan/active-plan 1
+# plan/store-download 1
+# plan/protocol-store 1
+# image-service/dequeue-cos 1
+# image-service/dequeue-calculation-task 1
+# image-service/dequeue-calculation-result 1
+# report/scene-download 1
+# report/question-download 1

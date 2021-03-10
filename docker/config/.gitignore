@@ -1,0 +1,4 @@
+# 该目录为配置目录，映射到宿主机
+*
+!.gitignore
+!config.example.json

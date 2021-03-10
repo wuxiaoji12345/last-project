@@ -1,0 +1,10 @@
+# 测试环境 每10分钟跑一次
+# 售点主数据同步，售点、组织架构、市场区隔
+3 4 * * * docker exec -i <container_name> ./yii store/sync-store
+3 4 * * * docker exec -i <container_name> ./yii store/sync-organization
+3 4 * * * docker exec -i <container_name> ./yii store/sync-market
+
+# 整改
+10 * * * * /home/work/www/market-execution-system-api-test/yii rectify
+
+# BI同步
